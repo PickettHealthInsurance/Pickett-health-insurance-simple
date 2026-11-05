@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Meet Tequlia Pickett, licensed insurance agent with Pickett Health Insurance, LLC. Learn about Medicare, ACA Marketplace, ICHRA, dental, and vision coverage guidance." />
+  <meta name="theme-color" content="#142F42" />
+  <title>Pickett Health Insurance | Meet Tequlia Pickett</title>
+  <style>
+    :root { --navy:#142F42; --teal:#237B75; --gold:#C5A66B; --ivory:#F7F5F0; --ink:#263B48; --line:#DCE5E4; }
+    *,*::before,*::after {box-sizing:border-box}
+    html {scroll-behavior:smooth}
+    body {margin:0;color:var(--navy);background:#fff;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:16px;line-height:1.65}
+    a {color:inherit}
+    a:focus-visible {outline:3px solid var(--teal);outline-offset:4px}
+    .wrap {width:min(1100px,calc(100% - 40px));margin:0 auto}
+    .review {background:#F9E8BD;color:#553D09;text-align:center;font-size:13px;font-weight:650;padding:8px 14px}
+    header {background:#fff;border-bottom:1px solid var(--line)}
+    .top {min-height:87px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+    .brand {display:block;text-decoration:none;line-height:1.12;white-space:nowrap}
+    .brand span {display:block;font-family:Georgia,"Times New Roman",serif;font-size:36px;letter-spacing:-1.45px;font-weight:bold}
+    .brand small {display:block;margin-top:5px;color:var(--teal);font-size:11px;letter-spacing:4px;font-weight:750}
+    .nav {display:flex;align-items:center;gap:25px;font-size:14px;font-weight:700}
+    .nav a {text-decoration:none}.nav a:hover {color:var(--teal)}
+    .hero {background:linear-gradient(120deg,var(--ivory) 0%,#fff 70%);overflow:hidden}
+    .hero-grid {display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.85fr);align-items:center;gap:55px;padding:65px 0 72px}
+    .eyebrow {display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:800;letter-spacing:2.2px;text-transform:uppercase;color:var(--teal)}
+    .eyebrow:before {content:"";width:27px;height:2px;background:var(--gold)}
+    h1,h2 {font-family:Georgia,"Times New Roman",serif;line-height:1.12;font-weight:600}
+    h1 {font-size:clamp(42px,5vw,73px);letter-spacing:-1.9px;margin:22px 0 17px}
+    h1 em {font-style:normal;color:var(--teal)}
+    p {margin:0 0 18px;color:var(--ink)}
+    .lede {font-size:18px;max-width:560px}
+    .sub {font-size:14px;text-transform:uppercase;letter-spacing:1.5px;color:#567077;font-weight:750;margin:0 0 18px}
+    .actions {display:flex;flex-wrap:wrap;gap:11px;margin-top:28px}
+    .btn {display:inline-block;text-decoration:none;line-height:1.3;padding:15px 24px;border-radius:7px;font-weight:750;font-size:14px;text-align:center;transition:transform .15s ease,background-color .15s ease}
+    .btn:hover {transform:translateY(-2px)}
+    .btn-main {color:#fff;background:var(--teal)}.btn-main:hover {background:#1a615e}
+    .btn-other {background:#fff;color:var(--navy);border:1px solid #AFC4C1}
+    .portrait-frame {position:relative;padding:17px 17px 0 0}
+    .portrait-frame:before {content:"";position:absolute;inset:0 0 28px 28px;border:1.5px solid var(--gold);border-radius:190px 190px 15px 15px;pointer-events:none}
+    .portrait {display:block;width:100%;height:530px;object-fit:cover;object-position:center 20%;border-radius:180px 180px 12px 12px;box-shadow:0 12px 38px rgba(20,47,66,.08)}
+    .about {padding:72px 0 56px}
+    .section-title {font-size:clamp(32px,3.6vw,45px);margin:12px 0 14px}
+    .intro {max-width:810px;font-size:17px}
+    .services {background:#F4F8F7;padding:65px 0 78px}
+    .service-grid {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:26px}
+    .service {min-height:100px;background:#fff;border:1px solid #E0EAE8;border-radius:11px;display:flex;align-items:center;justify-content:center;padding:15px;text-align:center;font-weight:750;color:var(--navy);box-shadow:0 3px 13px rgba(19,45,60,.025)}
+    .contact {padding:72px 0 76px}
+    .contact-box {background:var(--navy);padding:45px;border-radius:16px;color:white;display:grid;grid-template-columns:1fr auto;align-items:center;gap:30px}
+    .contact-box h2 {font-size:clamp(32px,4vw,48px);margin:0 0 13px}
+    .contact-box p {color:#DDE7E8;margin:0 0 20px}
+    .contact-links {display:flex;flex-wrap:wrap;gap:14px 22px}
+    .contact-links a {color:#fff;text-decoration-thickness:1px;text-underline-offset:4px;overflow-wrap:anywhere}
+    .btn-contact {background:#fff;color:var(--navy)}
+    .btn-contact-secondary {background:transparent;color:#fff;border:1px solid #AFC4C1}
+    .contact-actions {display:flex;flex-direction:column;gap:12px;min-width:210px}
+    footer {border-top:1px solid var(--line);padding:23px 0 30px;color:#5D737C;font-size:12px}
+    footer .wrap {display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+    @media(max-width:850px){.hero-grid{gap:28px}.service-grid{grid-template-columns:repeat(3,1fr)}.nav{gap:16px}}
+    @media(max-width:650px){.top{align-items:flex-start;flex-direction:column;padding:18px 0;gap:14px}.brand span{font-size:32px}.brand small{font-size:10px;letter-spacing:3px}.nav{font-size:13px}.hero-grid{grid-template-columns:1fr;padding:42px 0 48px;gap:29px}.portrait-frame{max-width:430px;margin:0 auto;width:100%}.portrait{height:420px}.about,.contact{padding:54px 0}.services{padding:51px 0}.service-grid{grid-template-columns:repeat(2,1fr)}.contact-box{grid-template-columns:1fr;padding:28px 24px}.contact-box .btn{width:100%}.contact-actions{min-width:0}.lede{font-size:17px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+  </style>
+</head>
+<body>
+  <div class="review" role="status">DRAFT FOR REVIEW — Confirm public contact and booking details before publishing</div>
+  <header><div class="wrap top">
+    <a href="#home" class="brand" aria-label="Pickett Health Insurance, home"><span>Pickett</span><small>HEALTH INSURANCE</small></a>
+    <nav class="nav" aria-label="Main navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+  </div></header>
+  <main id="home">
+    <section class="hero"><div class="wrap hero-grid">
+      <div><div class="eyebrow">Personal insurance guidance</div>
+        <h1>Hi, I'm <em>Tequlia Pickett.</em></h1>
+        <p class="sub">Licensed Insurance Agent</p>
+        <p class="lede">I'm here to help make health coverage conversations clearer and more personal. Whether you're exploring Medicare, Marketplace insurance, or coverage options for your business, you deserve answers you can understand.</p>
+        <div class="actions"><a class="btn btn-main" href="tel:+17064442787">Call Tequlia · (706) 444-2787</a><a class="btn btn-other" href="https://cal.com/tequila-pickett-355wel" target="_blank" rel="noopener noreferrer">Schedule a conversation</a></div>
+      </div>
+      <div class="portrait-frame"><img class="portrait" src="assets/tequlia-pickett.jpg" width="1000" height="1250" loading="eager" alt="Tequlia Pickett, licensed insurance agent" /></div>
+    </div></section>
+    <section class="about" id="about"><div class="wrap">
+      <div class="eyebrow">A personal approach</div><h2 class="section-title">Here to help you understand your options.</h2>
+      <p class="intro">I'm Tequlia, an insurance agent with Pickett Health Insurance, LLC. I help individuals, families, and employers navigate coverage questions with clear explanations and individual attention. We can start with a simple phone conversation about what you're looking for.</p>
+    </div></section>
+    <section class="services" id="services"><div class="wrap"><div class="eyebrow">Areas of guidance</div><h2 class="section-title">How I can help</h2>
+      <div class="service-grid" aria-label="Insurance services"><div class="service">Medicare</div><div class="service">ACA / Georgia Access</div><div class="service">ICHRA</div><div class="service">Dental</div><div class="service">Vision</div></div>
+    </div></section>
+    <section class="contact" id="contact"><div class="wrap"><div class="contact-box">
+      <div><h2>Let's connect.</h2><p>Give me a call or choose a convenient appointment time.</p><div class="contact-links"><a href="tel:+17064442787">(706) 444-2787</a><a href="https://picketthealthinsurance.com" target="_blank" rel="noopener noreferrer">picketthealthinsurance.com</a></div></div>
+      <div class="contact-actions"><a class="btn btn-contact" href="tel:+17064442787">Call (706) 444-2787</a><a class="btn btn-contact-secondary" href="https://cal.com/tequila-pickett-355wel" target="_blank" rel="noopener noreferrer">Book an appointment</a></div>
+    </div></div></section>
+  </main>
+  <footer><div class="wrap"><span>© <span id="yr">2026</span> Pickett Health Insurance, LLC · Independent insurance agency</span><span>Coverage options and availability depend on eligibility and applicable plans. This page is informational, not an application for coverage.</span></div></footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
